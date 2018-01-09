@@ -1,8 +1,8 @@
-var dbConnection = require ('../../config/dbConnection')
+var dbConnection = require('../../config/dbConnection')
 
 module.exports = function(app) {
 
-    var coonection = dbConnection()
+    var connection = dbConnection()
 
     app.get('/noticias', function(req, res) {
 
